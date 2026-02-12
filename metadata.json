@@ -1,0 +1,9 @@
+
+{
+  "name": "MarketAI Suite",
+  "description": "An enterprise-level AI Sales & Marketing Operating System providing intelligent campaign generation, lead scoring, and market analysis using Google Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
