@@ -1,132 +1,114 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
 # MarketAI Suite – AI-Powered Sales & Marketing Platform
 
 ## Overview
 
-MarketAI Suite is an AI-powered sales and marketing platform that leverages Groq's LLaMA 3.3 70B model to generate marketing campaigns, create personalized sales pitches, and perform intelligent lead qualification. The platform helps businesses make data-driven marketing and sales decisions through fast and accurate AI-powered analysis.
-
----
+MarketAI Suite is an intelligent sales and marketing platform that uses Generative AI to help businesses create marketing campaigns, generate sales pitches, and evaluate potential leads. The platform provides AI-powered insights that enable organizations to improve marketing effectiveness and sales performance.
 
 ## Features
 
-* AI-Generated Marketing Campaigns
-* Personalized Sales Pitch Generation
+* AI Marketing Campaign Generator
+* AI Sales Pitch Creator
 * Intelligent Lead Qualification & Scoring
-* Real-Time AI Responses using Groq API
-* Modern Responsive User Interface
-* Actionable Business Insights
-
----
+* Modern Responsive Dashboard
+* Real-Time AI-Powered Recommendations
+* User-Friendly Interface
 
 ## Technology Stack
 
-### Backend
-
-* Python
-* Flask
-* Groq API
-* Requests
-
 ### Frontend
 
-* HTML
-* CSS
-* JavaScript
+* React
+* TypeScript
+* Vite
+* Recharts
+* HTML5
+* CSS3
 
-### AI Model
+### AI Integration
 
-* LLaMA 3.3 70B via Groq API
-
----
+* Google Generative AI
+* Gemini API
 
 ## Project Modules
 
-### Marketing Campaign Generator
+### Campaign Generator
 
-Generates complete marketing strategies including campaign objectives, content ideas, ad copies, and call-to-action recommendations based on product and audience details.
+Generate targeted marketing campaigns based on product details, target audience, and marketing platform.
 
 ### Sales Pitch Generator
 
-Creates personalized sales pitches including elevator pitches, value propositions, differentiators, and strategic call-to-actions tailored to customer personas.
+Create personalized sales pitches tailored to customer personas and business requirements.
 
-### Lead Qualification & Scoring
+### Lead Scoring
 
-Analyzes lead information such as budget, need, urgency, and authority to generate lead scores, conversion probability, and qualification reasoning.
+Analyze lead information and generate qualification scores with conversion probability estimates.
 
----
+## Run Locally
 
-## Installation
+### Prerequisites
 
-### Clone Repository
+* Node.js (Latest LTS Version)
+* Gemini API Key
+
+### Installation
+
+1. Clone the repository
 
 ```bash
 git clone https://github.com/sowmya233/marketing-genai.git
-cd MarketAI-Suite
+cd marketing-genai
 ```
 
-### Install Dependencies
+2. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
-### Configure Environment Variables
+3. Configure environment variables
 
-Create a `.env` file:
+Create a `.env.local` file and add:
 
 ```env
-GROQ_API_KEY=your_groq_api_key
+GEMINI_API_KEY=your_api_key_here
 ```
 
-### Run Application
+4. Start the development server
 
 ```bash
-python app.py
+npm run dev
 ```
 
-Open:
+5. Open the application in your browser
 
 ```text
-http://localhost:5000
+http://localhost:5173
 ```
 
----
+## Workflow
 
-## Project Workflow
-
-1. User selects a feature.
-2. Input data is collected through the web interface.
-3. Flask backend processes the request.
-4. Prompt is generated dynamically.
-5. Groq API processes the prompt using LLaMA 3.3 70B.
-6. AI-generated results are returned.
-7. Results are displayed in the dashboard.
-
----
+User Input → AI Processing → Campaign/Pitch/Lead Analysis → Results Generation → Dashboard Display
 
 ## Applications
 
 * Digital Marketing
 * Sales Automation
-* Lead Prioritization
-* Campaign Planning
+* Lead Management
+* Customer Engagement
 * Business Intelligence
-* CRM Enhancement
-
----
 
 ## Future Enhancements
 
 * CRM Integration
-* PDF/Word Export
+* Export Reports to PDF
 * Multi-User Support
-* Analytics Dashboard
-* Email Campaign Automation
-* Advanced Lead Prediction Models
+* Advanced Analytics Dashboard
+* Marketing Performance Tracking
 
----
-
-
----
 
 ## License
 
